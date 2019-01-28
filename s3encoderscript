@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+for dir in /Path/To/Directory
+do
+    for file in "$dir"/*.mp3
+    do
+      ffmpeg -i $file -ac 2 -codec:a libmp3lame -b:a 48k -ar 16000 $(basename $file .mp3)_converted.mp3
+    done
+done

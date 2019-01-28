@@ -8,14 +8,14 @@ This script can be directed at a folder containing subfolders containing the .mp
 <a href="https://www.ffmpeg.org/">FFmpeg</a>
 
 <h1>File Structure</h1>
-The current version of the script must be edited to be directed at folder containing sub-folders containing mp3 files.
-*-Top-tier-folder
-*
-*--Subfolder
-*    ---.mp3
-*    ---.mp3
-*
-*--Subfolder
-*    ---.mp3
-*    ---.mp3
-*...
+The current version of the script must be edited to be directed at folder containing sub-folders containing mp3 files.<br/>
+*-Top-tier-folder<br/>
+*<br/>
+*--Subfolder<br/>
+*    ---.mp3<br/>
+*    ---.mp3<br/>
+*<br/>
+*--Subfolder<br/>
+*    ---.mp3<br/>
+*    ---.mp3<br/>
+*... <br/>
